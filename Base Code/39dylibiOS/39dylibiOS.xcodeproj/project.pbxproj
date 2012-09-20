@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44CF7B4145F743D0055D91C /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = A44CF7AD145F743D0055D91C /* list.h */; };
+		A44CF7B5145F743D0055D91C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44CF7AE145F743D0055D91C /* main.cpp */; };
+		A44CF7B6145F743D0055D91C /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44CF7AF145F743D0055D91C /* md5.cpp */; };
+		A44CF7B7145F743D0055D91C /* socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44CF7B0145F743D0055D91C /* socket.cpp */; };
+		A44CF7B8145F743D0055D91C /* socket.h in Headers */ = {isa = PBXBuildFile; fileRef = A44CF7B1145F743D0055D91C /* socket.h */; };
+		A44CF7B9145F743D0055D91C /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44CF7B2145F743D0055D91C /* tools.cpp */; };
+		A44CF7BA145F743D0055D91C /* tools.h in Headers */ = {isa = PBXBuildFile; fileRef = A44CF7B3145F743D0055D91C /* tools.h */; };
+		A44CF7BD145F74510055D91C /* buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44CF7BB145F74510055D91C /* buffer.cpp */; };
+		A44CF7BE145F74510055D91C /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = A44CF7BC145F74510055D91C /* buffer.h */; };
+		A44CF7C1145F745D0055D91C /* includes.h in Headers */ = {isa = PBXBuildFile; fileRef = A44CF7BF145F745D0055D91C /* includes.h */; };
+		A44CF7C2145F745D0055D91C /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44CF7C0145F745D0055D91C /* list.cpp */; };
+		A44CF7C6145F74980055D91C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44CF7C5145F74980055D91C /* CoreFoundation.framework */; };
+		A44CF7CA145F74B50055D91C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44CF7C9145F74B50055D91C /* CoreData.framework */; };
+		AA747D9F0F9514B9006C5449 /* _9dylibiOS_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* _9dylibiOS_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A44CF7AD145F743D0055D91C /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		A44CF7AE145F743D0055D91C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A44CF7AF145F743D0055D91C /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		A44CF7B0145F743D0055D91C /* socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket.cpp; sourceTree = "<group>"; };
+		A44CF7B1145F743D0055D91C /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		A44CF7B2145F743D0055D91C /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		A44CF7B3145F743D0055D91C /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		A44CF7BB145F74510055D91C /* buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = buffer.cpp; sourceTree = "<group>"; };
+		A44CF7BC145F74510055D91C /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		A44CF7BF145F745D0055D91C /* includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = includes.h; sourceTree = "<group>"; };
+		A44CF7C0145F745D0055D91C /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
+		A44CF7C5145F74980055D91C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A44CF7C9145F74B50055D91C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA747D9E0F9514B9006C5449 /* _9dylibiOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _9dylibiOS_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* 39dylib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = 39dylib.a; path = lib_9dylibiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				A44CF7C6145F74980055D91C /* CoreFoundation.framework in Frameworks */,
+				A44CF7CA145F74B50055D91C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* 39dylib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* 39dylibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A44CF7AE145F743D0055D91C /* main.cpp */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = 39dylibiOS;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				A44CF7C5145F74980055D91C /* CoreFoundation.framework */,
+				A44CF7C9145F74B50055D91C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A44CF7BF145F745D0055D91C /* includes.h */,
+				A44CF7C0145F745D0055D91C /* list.cpp */,
+				A44CF7BB145F74510055D91C /* buffer.cpp */,
+				A44CF7BC145F74510055D91C /* buffer.h */,
+				A44CF7AD145F743D0055D91C /* list.h */,
+				A44CF7AF145F743D0055D91C /* md5.cpp */,
+				A44CF7B0145F743D0055D91C /* socket.cpp */,
+				A44CF7B1145F743D0055D91C /* socket.h */,
+				A44CF7B2145F743D0055D91C /* tools.cpp */,
+				A44CF7B3145F743D0055D91C /* tools.h */,
+				AA747D9E0F9514B9006C5449 /* _9dylibiOS_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* _9dylibiOS_Prefix.pch in Headers */,
+				A44CF7B4145F743D0055D91C /* list.h in Headers */,
+				A44CF7B8145F743D0055D91C /* socket.h in Headers */,
+				A44CF7BA145F743D0055D91C /* tools.h in Headers */,
+				A44CF7BE145F74510055D91C /* buffer.h in Headers */,
+				A44CF7C1145F745D0055D91C /* includes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* 39dylibiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "39dylibiOS" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 39dylibiOS;
+			productName = 39dylibiOS;
+			productReference = D2AAC07E0554694100DB518D /* 39dylib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "39dylibiOS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* 39dylibiOS */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* 39dylibiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44CF7B5145F743D0055D91C /* main.cpp in Sources */,
+				A44CF7B6145F743D0055D91C /* md5.cpp in Sources */,
+				A44CF7B7145F743D0055D91C /* socket.cpp in Sources */,
+				A44CF7B9145F743D0055D91C /* tools.cpp in Sources */,
+				A44CF7BD145F74510055D91C /* buffer.cpp in Sources */,
+				A44CF7C2145F745D0055D91C /* list.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/_9dylibiOS.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = _9dylibiOS_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = _9dylibiOS;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/_9dylibiOS.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = _9dylibiOS_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = _9dylibiOS;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "39dylibiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "39dylibiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
